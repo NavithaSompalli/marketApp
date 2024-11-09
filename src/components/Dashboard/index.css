@@ -1,0 +1,151 @@
+.dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:aliceblue;
+
+    padding: 40px;
+    border-radius: 15px;
+    color: white;
+    height: 40vh;
+  }
+
+  .booking-widget {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    position: absolute;
+    left:400px;
+
+    bottom: 80px;
+    
+   
+  }
+
+  .booking-inputs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+
+  .book-btn {
+    width: 100%;
+    padding: 10px;
+    background: #2B6CB0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+  }
+
+  .services-grid{
+    display: flex;
+    flex-direction: row;
+    flex-direction: center;
+    align-items: space-around;
+    flex-wrap: wrap;
+  }
+
+  .service-card{
+    width:30%;
+    height:30%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: center;
+    align-items: space-around;
+    margin:5px;
+    box-shadow: 2px 2px 3px 3px #ffffff;
+    border-radius: 5px;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .images{
+    height: 300px;
+    width:100%;
+    align-self: center;
+    border-radius: 5px;
+  }
+
+ h1{
+  color:#000000;
+ }
+
+ p{
+  color:#000000;
+ }
+
+ .banner-image{
+  height: 300px;
+  width:100%;
+ }
+
+ .hero-content{
+  height:40%;
+ }
+
+ .discover{
+  margin-top:100px;
+ }
+
+ .testimonials{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+ .testimonial-card{
+  background-color: aliceblue;
+  padding:5px;
+  margin:5px;
+  border-radius: 5px;
+ }
+
+ .profile{
+  width: 100%;;
+  
+  display: flex;
+  flex-direction: column;
+ }
+
+ .services{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 10px;
+ }
+
+ .service-card{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+  border:1px solid #74797d;
+ }
+
+ .contact-info{
+  align-items: flex-start;
+  background-color: darkgray;
+  width:100%;
+  padding:10px;
+  margin: 5px;;
+ }
